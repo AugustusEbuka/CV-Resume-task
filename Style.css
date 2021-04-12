@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 20px 20px;
+    background-color: #f1f0c7;
+}
+
+hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-width: 2px;
+      width: 100%;
+}
+
+h1, h2 {color: #410783;}
+
+h3 {color: #410783;
+    text-decoration: underline;
+}
+
+img {
+    width: 200px;
+    height: 240px;
+    border-radius: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+.profile {
+    width: 60%;
+}
+
+.profile-data {
+    line-height: 1.3cm;
+}
+
+
+/* PART 2 */
+
+.skill-set {
+    margin-top: 5px;
+}
+
+.skill-set1 {
+    margin-bottom: 15px;
+}
+
+.skill-set1 .set {
+    margin-bottom: 5px;
+}
+
+.education {
+    width: 85%;
+}
+
+.education-1 {
+    width: 90%;
+}
+
+.education h4 {
+    margin-top: 5px;
+}
+
+.skill-set h4{
+    margin-top: 5px;
+}
+
+.work ul {
+    margin-top: 10px;
+    list-style: none;
+    line-height: 0.9cm;
+    padding-left: 20px;
+}
+
+.skill-set ul {
+    margin-top: 5px;
+    list-style: none;
+    line-height: 0.9cm;
+    padding-left: 20px;
+}
+
+.kokoma h4 {
+    margin-top: 10px;
+    padding-left: 15px;
+    line-height: 0.9cm;
+}
+
+.kokoma > p {
+    padding-left: 15px;
+}
+
+.kokoma h3 {
+    margin-top: 10px;
+    line-height: 0.9cm
+}
